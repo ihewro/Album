@@ -82,3 +82,84 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 .hljs-strong {
   font-weight: bold;
 }
+
+body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+a {
+    color: #607D8B;
+}
+.mdl-card__media,
+#search-label,
+#search-form-label:after,
+#scheme-Paradox .hot_tags-count,
+#scheme-Paradox .sidebar_archives-count,
+#scheme-Paradox .sidebar-colored .sidebar-header,
+#scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #607D8B !important;
+}
+
+/* Sidebar User Drop Down Menu Text Color */
+#scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+#scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #607D8B !important;
+}
+
+#post_entry-right-info,
+.sidebar-colored .sidebar-nav li:hover > a,
+.sidebar-colored .sidebar-nav li:hover > a i,
+.sidebar-colored .sidebar-nav li > a:hover,
+.sidebar-colored .sidebar-nav li > a:hover i,
+.sidebar-colored .sidebar-nav li > a:focus i,
+.sidebar-colored .sidebar-nav > .open > a,
+.sidebar-colored .sidebar-nav > .open > a:hover,
+.sidebar-colored .sidebar-nav > .open > a:focus,
+#ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #607D8B !important;
+}
+
+.toTop {
+    background: #607D8B !important;
+}
+
+.material-layout .material-post>.material-nav,
+.material-layout .material-index>.material-nav,
+.material-nav a {
+    color: #607D8B;
+}
+
+#scheme-Paradox .MD-burger-layer {
+    background-color: #607D8B;
+}
+
+#scheme-Paradox #post-toc-trigger-btn {
+    color: #607D8B;
+}
+
+.post-toc a:hover {
+    color: #607D8B;
+    text-decoration: underline;
+}
+body{
+    background-color: #e9ebec;
+}
+
+/* blog_info bottom background */
+#scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+    background-color: #fff;
+}
+
+.fade {
+    transition: all 200ms linear;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    opacity: 1;
+}
+
+.fade.out{
+    opacity: 0;
+}
